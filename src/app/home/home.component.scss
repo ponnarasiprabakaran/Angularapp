@@ -1,0 +1,39 @@
+.page {
+    color: white;
+    padding: 0 1rem;
+    background: #eff0f1;
+    &__box {
+      min-height: 120px;
+      background: #072658;
+      margin: 0 -1rem;
+      font-size: 36px;
+    }
+    &__content {
+      min-height: calc(100vh - 178px);
+      border-radius: 10px;
+      margin-top: -2rem;
+      background: rgb(253, 251, 251);
+      color: black;
+      font-size: 0.8rem;
+      &-data {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  
+.button{
+  
+  justify-content: center;
+  width: 120px;
+  background-color: #072658;
+  
+}
+  .card{
+    border-color: #072658;
+  }
+  .Ripple{
+    border-color: #072658;
+
+  }
